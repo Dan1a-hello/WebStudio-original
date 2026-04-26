@@ -5,6 +5,7 @@
   font-style: normal;
   font-size: x-large;
   color: rgba(57, 126, 255, 0.849);
+  text-decoration: none;
 }
 
 .black {
@@ -35,11 +36,32 @@ li {
 .header-container {
   display: flex;
   justify-content: space-between;
+  text-decoration: none;
 }
 
 .navbar {
   display: flex;
   gap: 95px;
+}
+
+.nav-link {
+  color: black;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: rgba(57, 126, 255, 0.849);
+}
+
+.address-link {
+  color: black;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.address-link:hover {
+  color: rgba(57, 126, 255, 0.849)
 }
 
 .nav-list {
@@ -73,6 +95,10 @@ address {
   color: white;
 }
 
+.main-h2 {
+  margin-top: 50px;
+}
+
 .btn {
   display: inline-block;
   padding: 15px 30px;
@@ -82,6 +108,8 @@ address {
   border-radius: 5px;
   font-size: 16px;
   transition: 0.3s;
+  margin-bottom: 50px;
+  margin-top: 5px;
 }
 
 .btn:hover {
@@ -143,6 +171,7 @@ address {
   font-style: normal;
   font-size: x-large;
   color: rgba(57, 126, 255, 0.849);
+  text-decoration: none;
 }
 
 .footer-p {
